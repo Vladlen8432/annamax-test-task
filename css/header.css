@@ -1,4 +1,8 @@
 .header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
   padding: 20px 0;
   background-color: #211512;
 }
@@ -78,6 +82,11 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .header {
+    padding: 36px 0;
+    background-color: #211512;
+  }
+
   .mainLogo {
     font-size: 26px;
   }
