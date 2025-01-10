@@ -1,0 +1,90 @@
+.header {
+  padding: 20px 0;
+  background-color: #211512;
+}
+
+.container-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mainLogo {
+  font-family: "Pacifico", cursive;
+  font-size: 24px;
+  color: #fff;
+}
+
+.nav,
+.container-order {
+  display: none;
+}
+
+.order {
+  display: none;
+}
+
+.burger-menu {
+  width: 24px;
+  height: 24px;
+  stroke: none;
+  fill: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .burger-menu {
+    display: none;
+  }
+
+  .nav,
+  .container-order {
+    display: block;
+  }
+
+  .nav-list {
+    display: flex;
+    gap: 14px;
+    font-size: 13px;
+  }
+
+  .nav-link {
+    transition: color 0.3s ease;
+  }
+
+  .nav-link {
+    color: #fff;
+  }
+
+  .nav-list-item:hover .nav-link {
+    color: #d7c59b;
+  }
+
+  .order {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    background-color: #a7743f;
+    padding: 12px 24px;
+    border-radius: 100px;
+    display: block;
+    transition: all 0.3s ease;
+  }
+
+  .order:hover {
+    background-color: #bd9c6d;
+    color: #211512;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .mainLogo {
+    font-size: 26px;
+  }
+
+  .nav-list {
+    display: flex;
+    gap: 30px;
+    font-size: 16px;
+  }
+}
