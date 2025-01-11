@@ -1,8 +1,5 @@
 .hero {
-  background-image: linear-gradient(
-      rgba(33, 21, 18, 0.8),
-      rgba(33, 21, 18, 0.4)
-    ),
+  background-image: linear-gradient(rgba(34, 9, 1, 0.8), rgba(34, 9, 1, 0.4)),
     url("../images/background-img-mob.jpg");
   background-size: cover;
 }
@@ -24,7 +21,7 @@
 }
 
 .button-hero {
-  background-color: #a7743f;
+  background-color: #f6aa1c;
   padding: 12px 24px;
   border-radius: 100px;
   text-transform: uppercase;
@@ -35,16 +32,12 @@
 }
 
 .button-hero:hover {
-  background-color: #bd9c6d;
-  color: #211512;
+  color: #220901;
 }
 
 @media screen and (min-width: 768px) {
   .hero {
-    background-image: linear-gradient(
-        rgba(33, 21, 18, 0.4),
-        rgba(33, 21, 18, 0.4)
-      ),
+    background-image: linear-gradient(rgba(34, 9, 1, 0.4), rgba(34, 9, 1, 0.4)),
       url("../images/background-img.jpg");
     background-size: cover;
   }

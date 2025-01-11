@@ -4,7 +4,7 @@
   right: 0;
   left: 0;
   padding: 20px 0;
-  background-color: #211512;
+  background-color: #220901;
 }
 
 .container-header {
@@ -14,8 +14,8 @@
 }
 
 .mainLogo {
-  font-family: "Pacifico", cursive;
-  font-size: 24px;
+  font-family: "Smokum", serif;
+  font-size: 36px;
   color: #fff;
 }
 
@@ -60,7 +60,7 @@
   }
 
   .nav-list-item:hover .nav-link {
-    color: #d7c59b;
+    color: #f6aa1c;
   }
 
   .order {
@@ -68,7 +68,7 @@
     color: #fff;
     font-size: 13px;
     font-weight: 500;
-    background-color: #a7743f;
+    background-color: #f6aa1c;
     padding: 12px 24px;
     border-radius: 100px;
     display: block;
@@ -76,15 +76,14 @@
   }
 
   .order:hover {
-    background-color: #bd9c6d;
-    color: #211512;
+    /* background-color: #f6aa1c; */
+    color: #220901;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .header {
     padding: 36px 0;
-    background-color: #211512;
   }
 
   .mainLogo {
