@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/advantages.css" />
     <link rel="stylesheet" href="css/catalog.css" />
     <link rel="stylesheet" href="css/reviews.css" />
+    <link rel="stylesheet" href="css/contacts.css" />
   </head>
 
   <body>
@@ -284,6 +285,44 @@
               </svg>
             </button>
           </div>
+        </div>
+      </section>
+
+      <section class="contacts">
+        <div class="container contacts-container">
+          <h2 class="contacts-title">Контакти</h2>
+          <form class="contacts-form">
+            <label for="name">Ім'я</label><br />
+            <input
+              class="name-input"
+              type="text"
+              id="name"
+              name="name"
+              required
+            /><br />
+
+            <label for="phone">Телефон</label><br />
+            <input
+              class="phone-input"
+              type="tel"
+              id="phone"
+              name="phone"
+              required
+            /><br />
+
+            <label for="message">Повідомлення</label><br />
+            <textarea
+              class="message-input"
+              id="message"
+              name="message"
+              required
+            ></textarea
+            ><br />
+
+            <button type="submit" class="contacts-submit">
+              Надіслати заявку
+            </button>
+          </form>
         </div>
       </section>
     </main>
