@@ -28,3 +28,21 @@ document.addEventListener("DOMContentLoaded", () => {
 
   showReview(currentIndex);
 });
+
+// ========== Mobile menu ==========
+
+const burgeerMenuBtn = document.querySelector(".burger-menu-btn");
+const closeBtn = document.querySelector(".close-button");
+const backdrop = document.querySelector(".backdrop");
+
+burgeerMenuBtn.addEventListener("click", () => {
+  backdrop.style.display = "block";
+});
+
+closeBtn.addEventListener("click", () => {
+  backdrop.style.display = "none";
+});
+
+backdrop.addEventListener("click", () => {
+  backdrop.style.display = "none";
+});

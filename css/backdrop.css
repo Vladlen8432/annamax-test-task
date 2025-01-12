@@ -1,0 +1,59 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: none;
+}
+
+.mobile-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 75%;
+  height: 100%;
+  background-color: #f6aa1c;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.close-icon {
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+}
+
+.mobile-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: 34px;
+  margin-top: 34px;
+}
+
+.mobile-menu-item {
+  font-size: 20px;
+}
+
+.mobile-menu-link {
+  color: inherit;
+  transition: all 0.3s ease;
+}
+
+.mobile-menu-link:hover {
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .backdrop {
+    display: none;
+  }
+}
