@@ -1,160 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Smokum&display=swap"
-      rel="stylesheet"
-    />
-    <title>Snack Fiesta</title>
 
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/header.css" />
-    <link rel="stylesheet" href="css/hero.css" />
-    <link rel="stylesheet" href="css/advantages.css" />
-    <link rel="stylesheet" href="css/catalog.css" />
-    <link rel="stylesheet" href="css/reviews.css" />
-    <link rel="stylesheet" href="css/contacts.css" />
-    <link rel="stylesheet" href="css/footer.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Smokum&display=swap"
+    rel="stylesheet" />
+  <title>Snack Fiesta</title>
 
-  <body>
-    <!-- ==================== HEADER ==================== -->
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/header.css" />
+  <link rel="stylesheet" href="css/hero.css" />
+  <link rel="stylesheet" href="css/advantages.css" />
+  <link rel="stylesheet" href="css/catalog.css" />
+  <link rel="stylesheet" href="css/reviews.css" />
+  <link rel="stylesheet" href="css/contacts.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+</head>
 
-    <header class="header">
-      <div class="container container-header">
-        <div class="main-logo-container">
-          <a href="index.html" class="mainLogo">Snack Fiesta</a>
-        </div>
+<body>
+  <!-- ==================== HEADER ==================== -->
 
-        <nav class="nav">
-          <ul class="nav-list">
-            <li class="nav-list-item">
-              <a href="" class="nav-link">Головна</a>
-            </li>
-            <li class="nav-list-item">
-              <a href="" class="nav-link">Переваги</a>
-            </li>
-            <li class="nav-list-item">
-              <a href="" class="nav-link">Каталог</a>
-            </li>
-            <li class="nav-list-item">
-              <a href="" class="nav-link">Відгуки</a>
-            </li>
-            <li class="nav-list-item">
-              <a href="" class="nav-link">Контакти</a>
-            </li>
-          </ul>
-        </nav>
+  <header class="header">
+    <div class="container container-header">
+      <div class="main-logo-container">
+        <a href="index.html" class="mainLogo">Snack Fiesta</a>
+      </div>
 
-        <a href="" class="order">Замовити</a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-list-item">
+            <a href="#hero" class="nav-link">Головна</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="#advantages" class="nav-link">Переваги</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="#catalog " class="nav-link">Каталог</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="#reviews" class="nav-link">Відгуки</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="#contacts" class="nav-link">Контакти</a>
+          </li>
+        </ul>
+      </nav>
 
+      <a href="" class="order">Замовити</a>
+
+      <button type="button" class="burger-menu-btn">
         <svg class="burger-menu">
           <use href="./images/sprite.svg#icon-menu"></use>
         </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- ==================== MAIN ==================== -->
+
+  <main class="main">
+    <!-- ========== HERO ========== -->
+
+    <section class="hero" id="hero">
+      <div class="container container-hero">
+        <h1 class="title-hero">Ідеальна пара до вашого напою!</h1>
+        <p class="subtitle-hero">
+          Обирайте смачні снеки для будь-якого настрою та події
+        </p>
+        <button class="button-hero" type="button">Обрати снеки</button>
       </div>
-    </header>
+    </section>
 
-    <!-- ==================== MAIN ==================== -->
+    <section class="advantages" id="advantages">
+      <div class="container advantages-container">
+        <h2 class="advantages-title">Переваги</h2>
 
-    <main class="main">
-      <!-- ========== HERO ========== -->
+        <ul class="advantages-list">
+          <li class="advantages-list-item">Свіжість продуктів</li>
+          <li class="advantages-list-item">Великий асортимент</li>
+          <li class="advantages-list-item">Швидка доставка</li>
+          <li class="advantages-list-item">Акційні пропозиції</li>
+        </ul>
+      </div>
+    </section>
 
-      <section class="hero">
-        <div class="container container-hero">
-          <h1 class="title-hero">Ідеальна пара до вашого напою!</h1>
-          <p class="subtitle-hero">
-            Обирайте смачні снеки для будь-якого настрою та події
-          </p>
-          <button class="button-hero" type="button">Обрати снеки</button>
+    <section class="catalog" id="catalog">
+      <div class="container catalog-container">
+        <h2 class="catalog-title">Каталог</h2>
+
+        <ul class="catalog-list">
+          <li class="catalog-list-item">
+            <img class="catalog-item-img" src="./images/chips.jpg" alt="Чіпси" />
+            <h3 class="catalog-item-title">Чіпси</h3>
+            <button class="catalog-item-button" type="button">
+              Докладніше
+            </button>
+          </li>
+
+          <li class="catalog-list-item">
+            <img class="catalog-item-img" src="./images/sukharyky.jpg" alt="Сухарики" />
+            <h3 class="catalog-item-title">Сухарики</h3>
+            <button class="catalog-item-button" type="button">
+              Докладніше
+            </button>
+          </li>
+
+          <li class="catalog-list-item">
+            <img class="catalog-item-img" src="./images/ryba.jpg" alt="Морепродукти" />
+            <h3 class="catalog-item-title">Морепродукти</h3>
+            <button class="catalog-item-button" type="button">
+              Докладніше
+            </button>
+          </li>
+
+          <li class="catalog-list-item">
+            <img class="catalog-item-img" src="./images/horishky.jpg" alt="Горішки" />
+            <h3 class="catalog-item-title">Горішки</h3>
+            <button class="catalog-item-button" type="button">
+              Докладніше
+            </button>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="reviews" id="reviews">
+      <div class="container reviews-container">
+        <h2 class="reviews-title">Відгуки</h2>
+
+        <div class="container-reviews-slider">
+          <button id="prevBtn" type="button">
+            <svg class="reviews-slider-icon">
+              <use href="./images/sprite.svg#icon-arrow-up"></use>
+            </svg>
+          </button>
         </div>
-      </section>
 
-      <section class="advantages">
-        <div class="container advantages-container">
-          <h2 class="advantages-title">Переваги</h2>
+        <ul id="reviewsList" class="reviews-list">
+          <li class="reviews-list-item">
+            <img class="reviews-item-img" src="./images/monica.png" alt="monica" />
+            <div class="reviews-item-container">
+              <h3 class="reviews-item-title">Моніка</h3>
+              <p class="reviews-item-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.
+              </p>
+            </div>
+          </li>
 
-          <ul class="advantages-list">
-            <li class="advantages-list-item">Свіжість продуктів</li>
-            <li class="advantages-list-item">Великий асортимент</li>
-            <li class="advantages-list-item">Швидка доставка</li>
-            <li class="advantages-list-item">Акційні пропозиції</li>
-          </ul>
+          <li class="reviews-list-item">
+            <img class="reviews-item-img" src="./images/robert.png" alt="robert" />
+            <div class="reviews-item-container">
+              <h3 class="reviews-item-title">Роберт</h3>
+              <p class="reviews-item-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.
+              </p>
+            </div>
+          </li>
+
+          <li class="reviews-list-item">
+            <img class="reviews-item-img" src="./images/laura.png" alt="laura" />
+            <div class="reviews-item-container">
+              <h3 class="reviews-item-title">Лаура</h3>
+              <p class="reviews-item-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.
+              </p>
+            </div>
+          </li>
+        </ul>
+
+        <div class="container-reviews-slider">
+          <button id="nextBtn" type="button">
+            <svg class="reviews-slider-icon">
+              <use href="./images/sprite.svg#icon-arrow-down"></use>
+            </svg>
+          </button>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="catalog">
-        <div class="container catalog-container">
-          <h2 class="catalog-title">Каталог</h2>
-
-          <ul class="catalog-list">
-            <li class="catalog-list-item">
-              <img
-                class="catalog-item-img"
-                src="./images/chips.jpg"
-                alt="Чіпси"
-              />
-              <h3 class="catalog-item-title">Чіпси</h3>
-              <button class="catalog-item-button" type="button">
-                Докладніше
-              </button>
-            </li>
-
-            <li class="catalog-list-item">
-              <img
-                class="catalog-item-img"
-                src="./images/sukharyky.jpg"
-                alt="Сухарики"
-              />
-              <h3 class="catalog-item-title">Сухарики</h3>
-              <button class="catalog-item-button" type="button">
-                Докладніше
-              </button>
-            </li>
-
-            <li class="catalog-list-item">
-              <img
-                class="catalog-item-img"
-                src="./images/ryba.jpg"
-                alt="Морепродукти"
-              />
-              <h3 class="catalog-item-title">Морепродукти</h3>
-              <button class="catalog-item-button" type="button">
-                Докладніше
-              </button>
-            </li>
-
-            <li class="catalog-list-item">
-              <img
-                class="catalog-item-img"
-                src="./images/horishky.jpg"
-                alt="Горішки"
-              />
-              <h3 class="catalog-item-title">Горішки</h3>
-              <button class="catalog-item-button" type="button">
-                Докладніше
-              </button>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="reviews">
+    <!-- <section class="reviews" id="reviews">
         <div class="container reviews-container">
           <h2 class="reviews-title">Відгуки</h2>
 
           <div class="container-reviews-slider">
-            <button type="button">
+            <button type="button" id="prevBtn">
               <svg class="reviews-slider-icon">
                 <use href="./images/sprite.svg#icon-arrow-up"></use>
               </svg>
             </button>
           </div>
 
-          <ul class="reviews-list">
+          <ul class="reviews-list" id="reviewsList">
             <li class="reviews-list-item">
               <img
                 class="reviews-item-img"
@@ -242,92 +285,77 @@
           </ul>
 
           <div class="container-reviews-slider">
-            <button type="button">
+            <button type="button" id="nextBtn">
               <svg class="reviews-slider-icon">
                 <use href="./images/sprite.svg#icon-arrow-down"></use>
               </svg>
             </button>
           </div>
         </div>
-      </section>
+      </section> -->
 
-      <section class="contacts">
-        <div class="container contacts-container">
-          <h2 class="contacts-title">Контакти</h2>
-          <form class="contacts-form">
-            <label for="name">Ім'я</label><br />
-            <input
-              class="name-input"
-              type="text"
-              id="name"
-              name="name"
-              required
-            /><br />
+    <section class="contacts" id="contacts">
+      <div class="container contacts-container">
+        <h2 class="contacts-title">Контакти</h2>
+        <form class="contacts-form">
+          <label for="name">Ім'я</label><br />
+          <input class="name-input" type="text" id="name" name="name" required /><br />
 
-            <label for="phone">Телефон</label><br />
-            <input
-              class="phone-input"
-              type="tel"
-              id="phone"
-              name="phone"
-              required
-            /><br />
+          <label for="phone">Телефон</label><br />
+          <input class="phone-input" type="tel" id="phone" name="phone" required /><br />
 
-            <label for="message">Повідомлення</label><br />
-            <textarea
-              class="message-input"
-              id="message"
-              name="message"
-              required
-            ></textarea
-            ><br />
+          <label for="message">Повідомлення</label><br />
+          <textarea class="message-input" id="message" name="message" required></textarea><br />
 
-            <button type="submit" class="contacts-submit">
-              Надіслати заявку
-            </button>
-          </form>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div class="container container-footer">
-        <ul class="footer-social-list">
-          <li class="footer-social-item">
-            <a href="" class="footer-social-link">
-              <svg class="footer-social-icon">
-                <use href="./images/sprite.svg#icon-instagram"></use>
-              </svg>
-            </a>
-          </li>
-
-          <li class="footer-social-item">
-            <a href="" class="footer-social-link">
-              <svg class="footer-social-icon">
-                <use href="./images/sprite.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-
-          <li class="footer-social-item">
-            <a href="" class="footer-social-link">
-              <svg class="footer-social-icon">
-                <use href="./images/sprite.svg#icon-x"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-
-        <address class="footer-address">
-          <a class="footer-link" href="tel:+38XXX-XXX-XXXX"
-            >Телефон: +38 (777) 777-77-77</a
-          ><br />
-          <a class="footer-link" href="mailto:info@snackbuddy.com"
-            >Email: info@snackbuddy.com</a
-          >
-        </address>
-        <p class="footer-copyright">© 2024 SnackBuddy</p>
+          <button type="submit" class="contacts-submit">
+            Надіслати заявку
+          </button>
+        </form>
       </div>
-    </footer>
-  </body>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container container-footer">
+      <ul class="footer-social-list">
+        <li class="footer-social-item">
+          <a href="" class="footer-social-link">
+            <svg class="footer-social-icon">
+              <use href="./images/sprite.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+
+        <li class="footer-social-item">
+          <a href="" class="footer-social-link">
+            <svg class="footer-social-icon">
+              <use href="./images/sprite.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+
+        <li class="footer-social-item">
+          <a href="" class="footer-social-link">
+            <svg class="footer-social-icon">
+              <use href="./images/sprite.svg#icon-x"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+
+      <address class="footer-address">
+        <a class="footer-link" href="tel:+38XXX-XXX-XXXX">Телефон: +38 (777) 777-77-77</a><br />
+        <a class="footer-link" href="mailto:info@snackbuddy.com">Email: info@snackbuddy.com</a>
+      </address>
+      <p class="footer-copyright">© 2024 SnackBuddy</p>
+    </div>
+  </footer>
+
+  <div class="backdrop">
+    
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+
 </html>
