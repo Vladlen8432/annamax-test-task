@@ -20,7 +20,6 @@
 
 .catalog-list-item {
   background-color: #fff;
-  border: 1px solid #bc3908;
   border-radius: 10px;
   width: 200px;
   padding: 16px;
@@ -59,62 +58,9 @@
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .catalog-item-button:hover {
-  background-color: #e69500;
+  color: #220901;
 }
-
-/* @media screen and (min-width: 768px) {
-    .catalog-list-item {
-        width: 200px;
-      }
-} */
-
-/* @media screen and (min-width: 1200px) {
-    .catalog-list-item {
-        width: 268px;
-      }
-} */
-
-/* .catalog-container {
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-.catalog-title {
-  text-align: center;
-}
-
-.catalog-list {
-  display: flex;
-  flex-direction: column;
-  row-gap: 16px;
-  margin-top: 20px;
-}
-
-.catalog-list-item {
-  padding-top: 16px;
-  padding-bottom: 16px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  row-gap: 8px;
-  justify-content: center;
-  width: 100%;
-  border: 1px solid #bc3908;
-  border-radius: 20px;
-}
-
-.catalog-item-img {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-}
-
-.catalog-item-button {
-  background-color: #f6aa1c;
-  color: #fff;
-  padding: 8px 16px;
-  border-radius: 15px;
-} */

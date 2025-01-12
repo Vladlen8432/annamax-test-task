@@ -1,0 +1,27 @@
+.footer {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: #f6aa1c;
+}
+
+.footer-social-list {
+  display: flex;
+  gap: 4px;
+}
+
+.footer-social-icon {
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+}
+
+.footer-address {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  font-style: normal;
+  color: #220901;
+}
+
+.footer-link {
+  color: #220901;
+}
