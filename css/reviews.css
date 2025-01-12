@@ -50,8 +50,7 @@
 
 .reviews-item-text {
   display: -webkit-box;
-  /* -webkit-line-clamp: 3; */
-  -webkit-line-clamp: 3;
+  line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
   max-height: calc(1.2em * 3);
@@ -59,7 +58,7 @@
 
 .reviews-item-text:hover,
 .reviews-item-text:focus {
-  overflow-y: scroll;                /* Показує скрол при наведенні */
+  overflow-y: scroll;
 }
 
 .reviews-slider-icon {
