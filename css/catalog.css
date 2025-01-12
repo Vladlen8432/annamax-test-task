@@ -65,17 +65,17 @@
   background-color: #e69500;
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     .catalog-list-item {
         width: 200px;
       }
-}
+} */
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 1200px) {
     .catalog-list-item {
         width: 268px;
       }
-}
+} */
 
 /* .catalog-container {
   padding-top: 40px;
